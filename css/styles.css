@@ -1,0 +1,204 @@
+body {
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+
+p {
+  color: #8f8f8f;
+}
+/* BIG HEADINGS */
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.tytul {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.tindog {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.pozycja {
+  line-height: 1.5;
+}
+
+.gora {
+  font-size: 1.5rem;
+  margin: 0 20px;
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+/* DOG PHOTO */
+.pies {
+  transform: rotate(25deg);
+  position: absolute;
+  width: 55%;
+  right: 30%;
+}
+
+/* TITLE SECTION */
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* NAVBAR */
+.navbar-brand {
+  font-family: Ubuntu, sans-serif;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+/* DOWNLOAD BUTTON */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* features */
+#features {
+  font-family: 'Montserrat-Black', sans-serif;
+
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.znaczki {
+  color: #ef8172;
+  font-size: 4rem;
+}
+
+.zacheta {
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 3% 3% 0 3%;
+}
+
+.rozwiniecie {
+  color: #8f8f8f;
+}
+
+.odstep {
+  margin-bottom: 3rem;
+}
+
+.znaczki:hover {
+  color: #ff4c68;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.5rem;
+}
+.testimonial-text{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+/* PRICING */
+
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* CALL TO ACTION */
+#cta {
+  background-color: #ff4c68;
+  font-family: 'Montserrat-Black', sans-serif;
+  color: #fff;
+
+}
+
+.motto {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  margin: 1rem 1rem 0;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+
+}
+
+.prawa {
+  font-size: 1.1rem;
+}
+
+.social-media {
+  display: inline-block;
+  font-size: 1rem;
+  color: Black;
+  letter-spacing: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1028px) {
+  .pies {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
